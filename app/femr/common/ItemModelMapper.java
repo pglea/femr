@@ -216,13 +216,9 @@ public class ItemModelMapper implements IItemModelMapper {
 
         if (heightFeet != null)
             patientItem.setHeightFeet(heightFeet);
-        else
-            patientItem.setHeightFeet(0);
 
         if (heightInches != null)
             patientItem.setHeightInches(heightInches);
-        else
-            patientItem.setHeightInches(0);
 
         if (weight != null)
             patientItem.setWeight(weight);
